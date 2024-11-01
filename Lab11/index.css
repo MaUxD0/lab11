@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+#agents-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.agent-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+.agent-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.agent-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.agent-card ul {
+    list-style-type: none;
+    padding: 0;
+}
